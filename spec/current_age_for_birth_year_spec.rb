@@ -5,7 +5,7 @@ describe 'current_age_for_birth_year method' do
     age_of_person = 19
     current_year = 2003
     birth_year = 1984
-    answer = current_year - birth_year
+    answer = 19
     age_of_person = current_year
     expect(age_of_person).to eq(19)
  end
